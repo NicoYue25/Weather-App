@@ -8,14 +8,6 @@ body {
   color: #6e2e6d;
 }
 
-a {
-  text-align: center;
-  font-size: 25px;
-  color: #6e2e6d;
-  text-decoration: none;
-  padding: 0 5px;
-}
-
 h1,
 h5 {
   margin-top: 15px;
@@ -50,6 +42,14 @@ h5 {
   padding: 5px 20px;
 }
 
+.units {
+  text-align: center;
+  font-size: 25px;
+  color: #6e2e6d;
+  text-decoration: none;
+  padding: 0 5px;
+}
+
 .deg {
   margin-left: 25px;
 }
@@ -77,6 +77,11 @@ h5 {
   font-size: 12px;
   line-height: 15px;
   font-weight: 700;
+}
+
+.link {
+  text-align: right;
+  margin: 15px 15px 0px 0px;
 }
 
 .currentTemp {
